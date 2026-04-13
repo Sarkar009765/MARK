@@ -2,19 +2,7 @@
 # Database files
 *.db
 
-# Environment variables
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# Python specific
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -23,9 +11,11 @@ __pycache__/
 env/
 venv/
 .venv/
-.venv.bak/
-pip-log.txt
-pip-delete-this-directory.txt
+.ENV
+.python-version
+
+# Logs
+*.log
 
 # OS generated files
 .DS_Store
@@ -35,20 +25,4 @@ pip-delete-this-directory.txt
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# IDE specific
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build outputs
-build/
-dist/
-*.egg-info/
-
-# Coverage reports
-.coverage
-htmlcov/
-.coverage.*
 ```
